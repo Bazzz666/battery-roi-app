@@ -1,0 +1,19 @@
+{
+  "name": "battery-roi-app",
+  "version": "1.0.0",
+  "description": "Solceller Syd battery ROI calculator and quote generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "decimal.js": "^10.3.1",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
